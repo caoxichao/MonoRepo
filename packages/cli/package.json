@@ -1,0 +1,33 @@
+{
+  "name": "@mo-demo/cli",
+  "version": "0.0.1",
+  "description": "package one",
+  "author": "caoxichao <cxc_account@163.com>",
+  "homepage": "https://github.com/caoxichao/MonoRepo#readme",
+  "license": "ISC",
+  "main": "lib/cli.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://af.hikvision.com.cn/artifactory/api/npm/npm-down/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caoxichao/MonoRepo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/caoxichao/MonoRepo/issues"
+  },
+  "dependencies": {
+    "@mo-demo/cli-shared-utils": "^0.0.1",
+    "chalk": "^4.1.2"
+  }
+}
